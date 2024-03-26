@@ -1,0 +1,111 @@
+
+.pozitie {
+    width: 50px;
+    height: 50px;
+    background-color: transparent; 
+    margin: 10px; 
+    display: inline-block;
+}
+
+a {
+    text-decoration: none;
+}
+
+img{
+    width: 80px;
+    height: 100px;
+}
+
+#teren {
+    position: relative;
+    width: 700px;
+    height: 1000px;
+    margin: 30px auto;
+    background: url('images/teren.jpg') center center no-repeat;
+    background-size: cover;
+}
+
+.jucator {
+    position: absolute;
+    width: 50px; 
+    height: 50px; 
+    background-color: #fff;
+    border: 1px solid #000; 
+    border-radius: 50%;
+    text-align: center;
+    line-height: 40px; 
+    font-size: 12px; 
+}
+
+.edit_jucator{
+    position: absolute;
+    width: 50px; 
+    height: 50px; 
+    background-color: transparent;
+}
+
+.pozitionare1{
+    top: 83%;
+    left: 45%;
+    position: absolute !important;
+}
+
+.pozitionare2{
+    top: 73%;
+    left: 10%;
+    position: absolute !important;
+}
+
+.pozitionare3{
+    top: 73%;
+    left: 33%;
+    position: absolute !important;
+}
+
+.pozitionare4{
+    top: 73%;
+    left: 57%;
+    position: absolute !important;
+}
+
+.pozitionare5{
+    top: 73%;
+    left: 80%;
+    position: absolute !important;
+}
+
+.pozitionare6{
+    top: 46%;
+    left: 23%;
+    position: absolute !important;
+}
+
+.pozitionare7{
+    top: 46%;
+    left: 45%;
+    position: absolute !important;
+}
+
+.pozitionare8{
+    top: 46%;
+    left: 69%;
+    position: absolute !important;
+}
+
+.pozitionare9{
+    top: 26%;
+    left: 10%;
+    position: absolute !important;
+}
+
+.pozitionare10{
+    top: 20%;
+    left: 45%;
+    position: absolute !important;
+}
+
+.pozitionare11{
+    top: 26%;
+    left: 80%;
+    position: absolute !important;
+}

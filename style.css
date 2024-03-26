@@ -1,0 +1,173 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.navbar {
+    background-color: #333;
+    overflow: hidden;
+}
+
+.container{
+    max-width: 1200px;
+    width: 100%;
+    margin: 0 auto;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navbar a {
+    display: inline-block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.navbar a:hover {
+    background-color: #ddd;
+    color: black;
+}
+
+.log__icon{
+    width: 20px;
+}
+
+.log__navbar > img{
+    width: 18px;
+    height: auto;
+    transition-duration: 1s;
+}
+
+.log__navbar > img:hover{
+    transform: rotate(90deg);
+}
+
+.logo {
+    display: block;
+    margin: 0 auto;
+}
+
+.dates{
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.tabel {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+    max-width: 1200px;
+    margin: 20px auto;
+}
+
+.card {
+    border: 1px solid #ccc;
+    padding: 20px;
+    text-align: center;
+    background-color: #f9f9f9;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    box-sizing: border-box;
+    height: 100%; 
+}
+
+.card img {
+    width: 100%;
+    height: 150px;
+    object-fit: contain; 
+    margin-bottom: 10px;
+}
+
+.card form {
+    margin-top: 10px;
+}
+
+.card:nth-child(3n+1) {
+    clear: left;
+}
+
+.card {
+    position: relative
+}
+
+.id {
+    position: absolute;
+    top: 0;
+    left: 0;
+    color: #333;
+    padding: 5px;
+    border-radius: 5px;
+    font-size: 12px;
+}
+
+.user__div {
+    width: 70%;
+    max-width: 700px;
+    margin: 30px auto;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    text-align: center;
+}
+
+h1 {
+    color: #333;
+}
+
+p {
+    margin: 10px 0;
+    color: #666;
+}
+
+.buttons {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+}
+
+.buttons button {
+    padding: 10px 20px;
+    background-color: #424242;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.buttons button:hover {
+    background-color: #000000;
+}
+
+.user__img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-top: 10px;
+    border: 3px solid #3d3d3d;
+}
+
+.username {
+    letter-spacing: 2px;
+    color: #333;
+    font-weight: 600;
+    font-size: 18px;
+    text-decoration: none;
+}
+
+.user__div a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.user__div a:hover {
+    text-decoration: underline;
+}
